@@ -8,7 +8,7 @@ __PLATFORM_BLOCKS__
 
   depends_on "flac"
   depends_on "lame"
-  depends_on "sox"
+  depends_on "sox_ng"
 
   def install
     bin.install "caesura"
