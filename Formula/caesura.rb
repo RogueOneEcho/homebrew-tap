@@ -1,31 +1,31 @@
 class Caesura < Formula
   desc "CLI for transcoding FLAC audio and uploading to Gazelle-based trackers"
   homepage "https://github.com/RogueOneEcho/caesura"
-  version "0.27.0"
+  version "0.27.1"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.27.0/caesura-0.27.0-aarch64-apple-darwin.tar.xz"
-      sha256 "7bf822aca39657bb5f4b209d376adce8e1ddfaf1b255740f7d4179c6e9880831"
+      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.27.1/caesura-0.27.1-aarch64-apple-darwin.tar.xz"
+      sha256 "6c2a2bf5d1d07f7a4191781d3cf1a823c124937e158db77dcac19025a14c716d"
     end
   end
   on_macos do
     on_intel do
-      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.27.0/caesura-0.27.0-x86_64-apple-darwin.tar.xz"
-      sha256 "9f36f2ef53f46a0474c18ee0ded874e57f33ddfc885e915e3ce830260fb9d15f"
+      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.27.1/caesura-0.27.1-x86_64-apple-darwin.tar.xz"
+      sha256 "c4627f8fd6539d1664d581cb10c216bc743f976151da88dcd6de8118fbdff504"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.27.0/caesura-0.27.0-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "cc1e6dceb28875056f2eac486b8ea1548c7122e609a84a65757e18c56af410d7"
+      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.27.1/caesura-0.27.1-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "f664c51ec6333e5f593864137a14dc1968d74ae8e96f26d335a1f54fcbaccf9a"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.27.0/caesura-0.27.0-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "90de01ef99f793a3f669613ee43a8a3c0b6c18f49fc985723241ce1e252a559f"
+      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.27.1/caesura-0.27.1-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "206a91bbf8b6d0875e466070d498f7e368de2b4b4e2f69a70a5dd12730d34f73"
     end
   end
 
