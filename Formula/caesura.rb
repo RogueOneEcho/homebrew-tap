@@ -1,31 +1,31 @@
 class Caesura < Formula
   desc "CLI for transcoding FLAC audio and uploading to Gazelle-based trackers"
   homepage "https://github.com/RogueOneEcho/caesura"
-  version "0.30.0"
+  version "0.30.2"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.30.0/caesura-0.30.0-aarch64-apple-darwin.tar.xz"
-      sha256 "c892f838ae60cd2b57d93c4ee134158dce4eb7c63e814d505dc920e31a0c7e44"
+      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.30.2/caesura-0.30.2-aarch64-apple-darwin.tar.xz"
+      sha256 "269fecb7d853eda42f100744f9e724625eaf2f5f421390bb494340b386f6d8bd"
     end
   end
   on_macos do
     on_intel do
-      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.30.0/caesura-0.30.0-x86_64-apple-darwin.tar.xz"
-      sha256 "71c903a9c900dce8658c035233d0c499a68b9ae84c27093edeefed2d3587589c"
+      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.30.2/caesura-0.30.2-x86_64-apple-darwin.tar.xz"
+      sha256 "d528cfbdc202c4a2af96abc1f000e1ca141fe1508780a1f81284bc2f2d91fd10"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.30.0/caesura-0.30.0-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "6b0454b6d283d333b8b174807f476e2a5b264491eb9812d687b916d5d4367130"
+      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.30.2/caesura-0.30.2-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "b892d306f93cb7f553f89659637eb5e7b186ad613c4f64478863e2afe754c7b6"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.30.0/caesura-0.30.0-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "1d0706a75b7d6327d52d00009b38fddab453b33dc9282f8bbdac0c0e19e6e3fe"
+      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.30.2/caesura-0.30.2-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "fef292c0bee17f98bf1cceaf4763b77116e46eff24b5694762d46aa632d63a86"
     end
   end
 
