@@ -1,31 +1,31 @@
 class Caesura < Formula
   desc "CLI for transcoding FLAC audio and uploading to Gazelle-based trackers"
   homepage "https://github.com/RogueOneEcho/caesura"
-  version "0.30.2"
+  version "0.31.0"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.30.2/caesura-0.30.2-aarch64-apple-darwin.tar.xz"
-      sha256 "269fecb7d853eda42f100744f9e724625eaf2f5f421390bb494340b386f6d8bd"
+      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.31.0/caesura-0.31.0-aarch64-apple-darwin.tar.xz"
+      sha256 "ebdc4c8b63732e6918387a5df5f40812e66b8de0bbe0f5f7cc6869742540036c"
     end
   end
   on_macos do
     on_intel do
-      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.30.2/caesura-0.30.2-x86_64-apple-darwin.tar.xz"
-      sha256 "d528cfbdc202c4a2af96abc1f000e1ca141fe1508780a1f81284bc2f2d91fd10"
+      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.31.0/caesura-0.31.0-x86_64-apple-darwin.tar.xz"
+      sha256 "7acb86a6e3ffa6b51eb7705b3f3fc9732285df6c36c4d7b5996ce3c9e9461407"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.30.2/caesura-0.30.2-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "b892d306f93cb7f553f89659637eb5e7b186ad613c4f64478863e2afe754c7b6"
+      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.31.0/caesura-0.31.0-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "69220d787805b4215fee297a9cdc4fcc25654f1d23522677f7638deb2c93bb44"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.30.2/caesura-0.30.2-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "fef292c0bee17f98bf1cceaf4763b77116e46eff24b5694762d46aa632d63a86"
+      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.31.0/caesura-0.31.0-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "bdda95c2553ccf5f45d9e756387289adb69395e418ebc78535fc34d6d738b8ee"
     end
   end
 
