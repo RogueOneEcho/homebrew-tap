@@ -10,12 +10,6 @@ class Caesura < Formula
       sha256 "ebdc4c8b63732e6918387a5df5f40812e66b8de0bbe0f5f7cc6869742540036c"
     end
   end
-  on_macos do
-    on_intel do
-      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.31.0/caesura-0.31.0-x86_64-apple-darwin.tar.xz"
-      sha256 "7acb86a6e3ffa6b51eb7705b3f3fc9732285df6c36c4d7b5996ce3c9e9461407"
-    end
-  end
   on_linux do
     on_arm do
       url "https://github.com/RogueOneEcho/caesura/releases/download/v0.31.0/caesura-0.31.0-aarch64-unknown-linux-gnu.tar.xz"
