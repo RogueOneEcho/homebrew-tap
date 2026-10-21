@@ -1,25 +1,25 @@
 class Caesura < Formula
   desc "CLI for transcoding FLAC audio and uploading to Gazelle-based trackers"
   homepage "https://github.com/RogueOneEcho/caesura"
-  version "0.32.0"
+  version "0.33.1"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.32.0/caesura-0.32.0-aarch64-apple-darwin.tar.xz"
-      sha256 "5619f83fda606a434751882f4286f455c305b4ec35ad810a7b1d0b4f39137c1f"
+      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.33.1/caesura-0.33.1-aarch64-apple-darwin.tar.xz"
+      sha256 "b0d6de5cad55b2faf20e00d4ce4818fa464cb642d55dc924d2eefab2ec5e358e"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.32.0/caesura-0.32.0-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "9e553e2b9fcc77e3eb4434a1312f6ffdbc87e3b4c5844c9da134c3a2c54845ac"
+      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.33.1/caesura-0.33.1-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "9ed8c046f4abff5d2a6f366cc9ec4e8bdae96ad61c2003ed66301fc10c0b348d"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.32.0/caesura-0.32.0-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "b07e8e9f278c95f18d83a40fef3d7ae75a02d72803ad6bd6d78cd02d7ce3ff5f"
+      url "https://github.com/RogueOneEcho/caesura/releases/download/v0.33.1/caesura-0.33.1-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "d65d6f33d50ea057a37e8b3134389e5abfb570e0be051f8a53dd940f78459240"
     end
   end
 
